@@ -63,7 +63,31 @@ body {
 a {
     text-decoration: none;
 }
+::-webkit-scrollbar{
+    width: 20px;
+    height: 10px;
+    }
+    ::-webkit-scrollbar-track{
+    background-color:  #293345;
+    }
+    ::-webkit-scrollbar-thumb{
+    background-color:  rgb(0,238,255);
+    border-radius: 2px;
+    height: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 238, 255, 0.2), 0 6px 20px 0 rgba(0, 238, 255, 0.19);
 
+    }
+
+    ::-moz-selection { /* Code for Firefox */
+      color: white;
+      background-color: rgb(0,238,255);
+  
+    }
+    ::selection {
+      color: black;
+      background-color: rgb(0,238,255);
+    
+    }
 section {
     min-height: 100vh;
     padding: 10rem 9% 2rem;
